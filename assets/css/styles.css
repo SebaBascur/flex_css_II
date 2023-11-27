@@ -1,0 +1,104 @@
+body{
+    margin: 0;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    /* border: 1px solid red; */
+}
+
+.barralateral{
+    flex-grow: 1;
+    /* border: 1px solid red; */
+    
+}
+.contenido{
+    flex-grow: 4;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    /* border: 1px solid red;    */
+}
+
+/* .contenido img{
+    width: auto ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid green;    
+} */
+
+.perfil{
+    display: flex;    
+    border-bottom: 1px solid #ccc; 
+    /* border: 1px solid red; */
+}
+
+.perfil img{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    margin: 4px;
+}
+
+.nombre{
+    margin-top: 9px;
+    font-weight:bold;
+    margin-bottom: 0px;
+    /* border: 1px solid red; */
+}
+
+.estado{
+    font-size: 10px;
+    color: gray;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    /* border: 1px solid red; */
+}
+
+.texto_perfil{
+    margin-top: 1px; 
+    /* border: 1px solid rebeccapurple; */
+}
+
+/* Botón Nuevo Chat */
+.nuevo_chat{
+    padding: 15px;
+    display: flex; 
+    justify-content: center;
+    /* border: 1px solid red; */
+    
+}
+
+.boton{
+    background-color: blueviolet;
+    padding: 8px;
+    color: white;
+    margin-top: 4px;
+}
+
+.texto_conteni2{
+    font-size: 29px;
+    text-align: center;
+}
+
+.conteni1{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.texto_conteni2{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.texto_conteni3{
+    text-align: center;
+    margin: 0px;
+}
