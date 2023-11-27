@@ -23,18 +23,11 @@ body{
     /* border: 1px solid red;    */
 }
 
-/* .contenido img{
-    width: auto ;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid green;    
-} */
 
 .perfil{
     display: flex;    
     border-bottom: 1px solid #ccc; 
+
     /* border: 1px solid red; */
 }
 
@@ -101,4 +94,23 @@ body{
 .texto_conteni3{
     text-align: center;
     margin: 0px;
+}
+
+.perfil1{
+    display: flex;    
+    border-bottom: 1px solid #ccc;
+    justify-content: space-between; /* Alinea los elementos al principio y al final del contenedor */
+    align-items: center; /* Alinea los elementos verticalmente en el centro */
+    padding-right: 10px; /* Añade algo de padding a la derecha para que el contenido no toque el borde */
+}
+
+.menu{
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end; /* Alinea la imagen del menú hacia la derecha */
+}
+
+.menu img {
+    width: 24px; /* o el tamaño que prefieras */
+    height: auto; /* mantiene la proporción de la imagen */
 }
